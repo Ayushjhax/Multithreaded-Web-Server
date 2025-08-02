@@ -55,16 +55,16 @@ This project implements a multithreaded HTTP web server in Rust with a custom th
 
 MULTITHREADED_WEB_SERVER_IN_RUST/
 │
-└── hello/                    # Project root
-    ├── src/                  # Source code directory
-    │   ├── lib.rs           # Library file (ThreadPool implementation)
-    │   └── main.rs          # Entry point for the web server
-    │
-    ├── .gitignore           # Git ignore file
-    ├── 404.html             # HTML page for 404 NOT FOUND
-    ├── hello.html           # HTML page for successful response
-    ├── Cargo.lock           # Cargo lock file (auto-generated)
-    └── Cargo.toml           # Cargo configuration file
+├── src/                     # Source code directory
+│   ├── lib.rs              # Library file (ThreadPool implementation)
+│   └── main.rs             # Entry point for the web server
+│
+├── .gitignore              # Git ignore file
+├── 404.html                # HTML page for 404 NOT FOUND
+├── hello.html              # HTML page for successful response
+├── Cargo.lock              # Cargo lock file (auto-generated)
+├── Cargo.toml              # Cargo configuration file
+└── README.md               # Project documentation
 
 ---
 
