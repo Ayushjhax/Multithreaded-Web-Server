@@ -83,6 +83,7 @@ cargo run
 
 ---
 
-
+## Architecture Diagram
+![Rust - 2](https://github.com/user-attachments/assets/38de57e7-b7ff-402a-be7d-bd20a2b439e8)
 
 
