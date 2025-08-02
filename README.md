@@ -3,7 +3,7 @@ This project implements a multithreaded HTTP web server in Rust with a custom th
 
 ---
 
-## ✅ Features
+## Features
 
 - Handles HTTP requests on `127.0.0.1:7878`
 - Routes:
@@ -16,7 +16,7 @@ This project implements a multithreaded HTTP web server in Rust with a custom th
 
 ---
 
-## 🛠 How It Works
+## How It Works
 
 - **TCP Listener** accepts incoming connections on `127.0.0.1:7878`
 - Each connection is submitted as a **job** to the **thread pool**
@@ -29,7 +29,7 @@ This project implements a multithreaded HTTP web server in Rust with a custom th
 ## ▶ Example Output
 ---
 
-## 🛠 How It Works
+## How It Works
 
 - **TCP Listener** accepts incoming connections on `127.0.0.1:7878`
 - Each connection is submitted as a **job** to the **thread pool**
@@ -42,7 +42,7 @@ This project implements a multithreaded HTTP web server in Rust with a custom th
 ## ▶ Example Output
 ---
 
-## 🛠 How It Works
+## How It Works
 
 - **TCP Listener** accepts incoming connections on `127.0.0.1:7878`
 - Each connection is submitted as a **job** to the **thread pool**
