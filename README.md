@@ -51,22 +51,7 @@ This project implements a multithreaded HTTP web server in Rust with a custom th
 - Thread pool ensures a **graceful exit** by joining all worker threads
 
 ---
-## Project Structure 
 
-MULTITHREADED_WEB_SERVER_IN_RUST/
-│
-├── src/                     # Source code directory
-│   ├── lib.rs              # Library file (ThreadPool implementation)
-│   └── main.rs             # Entry point for the web server
-│
-├── .gitignore              # Git ignore file
-├── 404.html                # HTML page for 404 NOT FOUND
-├── hello.html              # HTML page for successful response
-├── Cargo.lock              # Cargo lock file (auto-generated)
-├── Cargo.toml              # Cargo configuration file
-└── README.md               # Project documentation
-
----
 
 ##  Example Output
 <img width="720" height="396" alt="Screenshot 2025-08-02 at 11 52 48 PM" src="https://github.com/user-attachments/assets/8556c1d4-6388-47f9-b755-70d9ede3078f" />
